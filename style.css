@@ -3,6 +3,7 @@
   --main-text: #ff00ff;
 }
 
+/* landing section */
 #main {
   margin: auto;
   width: 100vw;
@@ -12,10 +13,25 @@
   background-repeat: no-repeat;
 }
 
+/* services section */
+#services {
+  min-height: 65vh;
+  height: fit-content;
+}
+
+/* Helpers */
 .main-text {
   color: var(--main-text);
 }
 
 .red-text {
   color: var(--text-color-red);
+}
+
+.red-bg {
+  background-color: var(--text-color-red);
+}
+
+.white {
+  color: #fff;
 }

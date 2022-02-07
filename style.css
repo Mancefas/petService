@@ -1,0 +1,21 @@
+:root {
+  --text-color-red: #e75a50;
+  --main-text: #ff00ff;
+}
+
+#main {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-text {
+  color: var(--main-text);
+}
+
+.red-text {
+  color: var(--text-color-red);
+}

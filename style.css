@@ -13,6 +13,12 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 600px) {
+  #main {
+    background-image: url(./img/mainMob.jpg);
+  }
+}
+
 /* services section */
 #services {
   min-height: 65vh;

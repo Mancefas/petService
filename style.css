@@ -36,6 +36,21 @@
   filter: sepia(100%);
 }
 
+/* Working hours */
+.working-hours {
+  height: 40vh;
+}
+
+.img-full {
+  width: 100%;
+  height: auto;
+}
+
+.img-90 {
+  width: 83%;
+  height: auto;
+}
+
 /* Helpers */
 .main-text {
   color: var(--main-text);

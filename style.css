@@ -25,6 +25,17 @@
   height: fit-content;
 }
 
+/* Choose Us section */
+#choose-us {
+  margin: auto;
+  width: 90vw;
+  height: 50vh;
+  background: url(./img/chooseUs.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: sepia(100%);
+}
+
 /* Helpers */
 .main-text {
   color: var(--main-text);

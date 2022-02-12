@@ -33,12 +33,13 @@
   background: url(./img/chooseUs.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  filter: sepia(100%);
+  filter: sepia(80%);
 }
 
 /* Working hours */
 .working-hours {
-  height: 40vh;
+  min-height: 40vh;
+  height: fit-content;
 }
 
 .img-full {
@@ -49,6 +50,12 @@
 .img-90 {
   width: 83%;
   height: auto;
+}
+/* Carousel */
+#carousel {
+  width: 50vw;
+  height: auto;
+  margin: auto;
 }
 
 /* Helpers */

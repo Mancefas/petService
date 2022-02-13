@@ -298,6 +298,113 @@
       </div>
     </section>
 
+    <!-- Contact us section -->
+
+    <section id="contactUs" class="mb-5">
+      <div class="container-sm d-flex justify-content-center">
+        <form
+          class="gradient-bg p-3 rounded"
+          onsubmit="event.preventDefault();"
+        >
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Your name</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Your text</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label mb-3" for="flexCheckDefault">
+              Urgent?
+            </label>
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-outline-success mb-3"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Contact us
+          </button>
+        </form>
+      </div>
+
+      <!-- Pop up modal after submiting form -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Just a sample website
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              On real website this form would send data to your email.<br />
+              You can contact me on email - mantvydasdev@gmail.com
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div class="container-fluid">
         <div class="row">

@@ -233,7 +233,7 @@
       <div class="container working-hours mb-5">
         <div class="row">
           <div
-            class="col-10 col-sm-6 mx-auto bg-danger bg-gradient bg-opacity-100 border rounded d-flex flex-column justify-content-evenly"
+            class="col-10 col-sm-6 mx-auto gradient-bg border rounded d-flex flex-column justify-content-evenly"
           >
             <div class="d-flex justify-content-around">
               <p class="fw-bold">Mon-Tue</p>
@@ -357,13 +357,25 @@
 
           <button
             type="submit"
-            class="btn btn-outline-success mb-3"
+            class="btn btn-warning white mb-3"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
-            Contact us
+            Write us
           </button>
         </form>
+
+        <div
+          class="d-flex flex-column justify-content-center align-items-center m-5 d-none d-sm-flex"
+        >
+          <i class="fa-regular fa-map red-text fa-3x"></i>
+          <div class="gradient-bg p-3 rounded text-center">
+            <h6>3415 Post Farm Road</h6>
+            <h6>Atlanta</h6>
+            <h6>GA</h6>
+            <h6>Georgia</h6>
+          </div>
+        </div>
       </div>
 
       <!-- Pop up modal after submiting form -->
@@ -417,7 +429,7 @@
             >
             <a href="#" class="link-danger text-decoration-none">Contact us</a>
           </div>
-          <div class="col-6 text-center col-sm-4">
+          <div class="col-6 text-center col-sm-4 d-block d-sm-none">
             <i class="fa-regular fa-map red-text fa-2x"></i>
             <h6>3415 Post Farm Road</h6>
             <h6>Atlanta</h6>

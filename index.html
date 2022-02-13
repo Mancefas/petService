@@ -21,23 +21,61 @@
   </head>
   <body>
     <div class="container">
-      <header class="d-flex justify-content-center py-3">
-        <ul class="nav nav-pills gap-1 d-flex flex-column flex-sm-row">
-          <li class="nav-item">
-            <a href="#" class="btn btn-outline-danger" aria-current="page"
-              >Our services</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="#" class="btn btn-outline-danger">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="btn btn-outline-danger">Products</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="btn btn-outline-danger">Services</a>
-          </li>
-        </ul>
+      <header class="py-3">
+        <!-- Normal menu -->
+        <div class="d-flex justify-content-center d-none d-sm-flex">
+          <ul class="nav nav-pills gap-1 d-flex flex-column flex-sm-row">
+            <li class="nav-item">
+              <a href="#" class="btn btn-outline-danger" aria-current="page"
+                >Our services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="btn btn-outline-danger">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="btn btn-outline-danger">Products</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="btn btn-outline-danger">Services</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Hamburger menu -->
+        <div class="d-block d-sm-none text-center">
+          <button
+            class="btn btn-outline-danger btn-lg"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <ul class="nav nav-pills gap-1 d-flex flex-column flex-sm-row">
+                <li class="nav-item">
+                  <a href="#" class="btn btn-outline-danger" aria-current="page"
+                    >Our services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="btn btn-outline-danger">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="btn btn-outline-danger">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="btn btn-outline-danger">Services</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </header>
     </div>
     <div
